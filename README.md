@@ -1,10 +1,28 @@
-# Caravel User Project
+# Digital to Analog Converter (DAC)
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
+Digital to Analog Converter (DAC) is a device that transforms
+digital data into an analog signal. According to the Nyquist-Shannon
+sampling theorem, any sampled data can be reconstructed perfectly 
+with bandwidth and Nyquist criteria.
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
+A DAC can reconstruct sampled data into an analog signal with precision.
+The digital data may be produced from a microprocessor, Application
+Specific Integrated Circuit (ASIC), or Field Programmable Gate Array (FPGA),
+but ultimately the data requires the conversion to an analog signal in
+order to interact with the real world.
 
-## Please fill in your project documentation in this README.md file 
+![Basic DAC](./DAC.jpg)
 
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+## Applications of Digital to Analog Converter
+
+DACs are used in many digital signal processing applications and
+many more applications. Some of the important applications are
+discussed below.
+-   Audio Amplifier
+-   Video Encoder
+-   Display Electronics
+-   Data Acquisition Systems
+-   Calibration
+-   Motor Control
+-   Data Distribution System
+-   Software Radio
