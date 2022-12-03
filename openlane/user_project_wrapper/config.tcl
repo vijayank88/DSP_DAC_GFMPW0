@@ -35,7 +35,7 @@ set ::env(VERILOG_FILES) "\
 ## Clock configurations
 set ::env(CLOCK_PORT) "wb_clk_i"
 
-set ::env(CLOCK_PERIOD) "30"
+set ::env(CLOCK_PERIOD) "20"
 
 ## Internal Macros
 ### Macro PDN Connections
